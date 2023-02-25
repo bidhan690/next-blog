@@ -30,4 +30,4 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 
 ![Create routes via your file + folder structure](https://raw.githubusercontent.com/mschwarzmueller/nextjs-course-code/10-prj-blog-extra-files/content/images/posts/getting-started-with-nextjs/nextjs-file-based-routing.png)
 
-[... More content ...](https://nextjs.org/)
+[... More content ...](https://google.org/)
