@@ -1,5 +1,5 @@
 import '@/styles/globals.css'
-
+import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head'
 import Layout from '../components/layouts/Layout'
 
@@ -13,9 +13,9 @@ export default function App({ Component, pageProps }) {
     <meta name='description' content='I post about programming and web development'  />
     <meta property="og:image" content="/images/site/pp.png" />
     </Head>
-    
       <Layout>
-<Component {...pageProps} />
+      <Component {...pageProps} />
+      <Analytics />
   </Layout>
     </>
 
