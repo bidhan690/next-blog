@@ -9,6 +9,8 @@ export default function App({ Component, pageProps }) {
     <Head>
     <link rel='icon' href='/images/site/pp.png' ></link>
     <title>BIDHAN BLOG</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'  />
+    <meta name='description' content='I post about programming and web development  '  />
     </Head>
     
       <Layout>
