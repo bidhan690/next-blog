@@ -1,10 +1,9 @@
 import ReactMarkdown from 'react-markdown';
 import styles from './post-content.module.css';
 import PostHeader from './post-header';
-import Head from 'next/head';
+
 import Image from 'next/image';
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import {a11yDark} from 'react-syntax-highlighter/dist/cjs/styles/prism';
+
 
 export default function PostContent(props) {
   const post = props.posts;
