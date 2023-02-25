@@ -1,6 +1,27 @@
+import AllPosts from '../../components/posts/all-posts'
+import Head from 'next/head'
+import { getAllPosts } from '../../lib/post-util'
 
-export default function AllPostPage(){
+
+export default function AllPostPage(props) {
     return <>
-    <h1>Hello</h1>
+        <Head>
+
+            <title>All Posts</title>
+        </Head>
+        <AllPosts posts={props.posts} />
     </>
+}
+
+export function getStaticProps() {
+    const allPosts = getAllPosts();
+    return {
+        props: {
+            posts: allPosts
+        },
+        revalidate: 100
+
+
+    }
+
 }

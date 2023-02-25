@@ -1,7 +1,7 @@
-
+import ContactMain from '../../components/contact-page/ContactMain'
 
 export default function ContactPage(){
   return   <>
-    <h1>this is con</h1>
+    <ContactMain />
     </>
 }

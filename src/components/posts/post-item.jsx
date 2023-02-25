@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "./post-item.module.css"
 
 export default function PostItem(props){
@@ -9,16 +9,17 @@ export default function PostItem(props){
     month: 'long',
     year: 'numeric'
   })
-  const fullImagePath = `/images/post${slug}/${image}`
+  const fullImagePath = `/images/site/${image}`;
+  const path = `/posts/${slug}`
     return <li className={styles.post}>
-        <Link href='/'>
+        <Link href={path}>
            <div className={styles.image}>
-           <Image src={fullImagePath} alt={props.title} width={500} height={500} />
+           <Image src={image} alt={title} width={300} height={200} layout='responsive' />
            </div>
             <div className={styles.content}>
-                <h3>{props.title}</h3>
+                <h3>{title}</h3>
            <time>{formattedDate}</time>
-           <p>{props.excerpt}</p>
+           <p>{excerpt}</p>
             </div>
         </Link>
     </li>

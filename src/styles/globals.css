@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 * {
   box-sizing: border-box;
+}
+
+html {
+  zoom: 0.94;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    zoom: 0.95;
+  }
 }
 
 body {
