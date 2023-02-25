@@ -1,9 +1,9 @@
 import ContactMain from '../../components/contact-page/ContactMain'
 import Head from 'next/head'
 export default function ContactPage(){
-  return   <>
+  return <>
   <Head>
-    <title>Contact Me</title>
+    <title>Contact </title>
   </Head>
     <ContactMain />
     </>

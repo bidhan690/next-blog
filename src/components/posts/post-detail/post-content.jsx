@@ -30,9 +30,7 @@ export default function PostContent(props) {
 
   return (
     <>
-      <Head>
-        <title>{post.title}</title>
-      </Head>
+     
       <article className={styles.content}>
         <PostHeader title={post.title} image={post.image} />
         <ReactMarkdown components={ob}>{post.content}</ReactMarkdown>

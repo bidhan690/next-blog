@@ -1,6 +1,6 @@
 import Notification from '../ui/notification'
 import styles from './ContactMain.module.css'
-import { useRef,useState,useEffect } from 'react'
+import { useState,useEffect } from 'react'
 
 async function DataFetch(dataa){
     const response = await fetch('/api/contact',{

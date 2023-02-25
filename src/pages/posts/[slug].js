@@ -1,10 +1,16 @@
 import PostContent from "../../components/posts/post-detail/post-content"
 import { getData, getPostFiles } from '../../lib/post-util'
-
+import Head from "next/head"
 
 export default function SpecificPostsPage(props) {
     const postss = props.posts
-    return <PostContent posts={postss} />
+    return <>
+     <Head>
+     <meta name='description' content={postss.excerpt}  />
+        <title>{postss.title}</title>
+      </Head>
+     <PostContent posts={postss} />
+    </>
 
 }
 

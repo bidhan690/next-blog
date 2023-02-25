@@ -6,7 +6,7 @@ import { getAllPosts } from '../../lib/post-util'
 export default function AllPostPage(props) {
     return <>
         <Head>
-
+        <meta name='description' content='I post about programming and web development  '  />
             <title>All Posts</title>
         </Head>
         <AllPosts posts={props.posts} />
