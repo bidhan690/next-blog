@@ -11,6 +11,7 @@ export default function App({ Component, pageProps }) {
     <title>BIDHAN BLOG</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'  />
     <meta name='description' content='I post about programming and web development'  />
+    <meta property="og:image" content="/images/site/pp.png"></meta>
     </Head>
     
       <Layout>
