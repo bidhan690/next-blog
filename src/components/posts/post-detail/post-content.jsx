@@ -20,8 +20,8 @@ export default function PostContent(props) {
           <div className={styles.image}>
            <Image
 	      src={image.properties.src}
-	      width="768"
-	      height="432"
+	      width="600"
+	      height="250"
 	      alt={image.properties.alt}
 	    />
           </div>
