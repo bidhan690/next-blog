@@ -13,8 +13,8 @@ export default function AllPostPage(props) {
         <AllPosts posts={props.posts} />
         <div align="center">
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9623403163189751"
-     crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
+     crossOrigin="anonymous"></script>
+    <ins className="adsbygoogle"
       style={{display:'block'}}
      data-ad-client="ca-pub-9623403163189751"
      data-ad-slot="6511144828"
