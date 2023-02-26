@@ -11,14 +11,19 @@ SyntaxHighlighter.registerLanguage("js", js);
 export default function PostContent(props) {
   const post = props.posts;
   const ob = {
-    paragraph(paragraph) {
-      const { node } = paragraph;
-
-      if (node.children[0].type === "img") {
-        const img = node.children[0];
+    p: paragraph => {
+      const { node } = paragraph
+      
+      if (node.children[0].tagName === "img") {
+        const image = node.children[0]
         return (
           <div className={styles.image}>
-            <Image src={img.url} alt={img.alt} height={300} width={800} />
+           <Image
+	      src={image.properties.src}
+	      width="768"
+	      height="432"
+	      alt={image.properties.alt}
+	    />
           </div>
         );
       }
