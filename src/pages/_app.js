@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
    
     </Head>
 
-    <NextNProgress color="#96DED1" stopDelayMs={0.1} height={1.5} options={{ showSpinner: false  }}/>
+    <NextNProgress color="#96DED1" stopDelayMs={0.1} height={3} options={{ showSpinner: false  }}/>
 
       <Layout>
       <Component {...pageProps} />
