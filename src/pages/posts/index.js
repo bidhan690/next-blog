@@ -11,23 +11,7 @@ export default function AllPostPage(props) {
         </Head>
     
         <AllPosts posts={props.posts} />
-        <div align="center">
-<<<<<<< HEAD
-     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9623403163189751"
-     crossOrigin="anonymous"></script>
-    <ins className="adsbygoogle"
-      style={{display:'block'}}
-     data-ad-client="ca-pub-9623403163189751"
-     data-ad-slot="6511144828"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-=======
-    
->>>>>>> firstb
-     </div>
+        
 
     </>
 }

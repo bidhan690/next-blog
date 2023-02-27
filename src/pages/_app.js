@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head'
-import Script from 'next/script';
+
 import Layout from '../components/layouts/Layout'
 import NextNProgress from 'nextjs-progressbar';
 
@@ -16,15 +16,10 @@ export default function App({ Component, pageProps }) {
     <meta property="og:image" content="/images/site/pp.png" />
    
     </Head>
-<<<<<<< HEAD
-    <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9623403163189751"
-     crossOrigin="anonymous" />
-=======
-    
+
     <NextNProgress color="#96DED1" stopDelayMs={0.1} height={1.5} options={{ showSpinner: false  }}/>
->>>>>>> firstb
+
       <Layout>
-      
       <Component {...pageProps} />
       <Analytics />
   </Layout>
