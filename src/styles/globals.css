@@ -76,3 +76,13 @@ button {
   font: inherit;
   cursor: pointer;
 }
+
+#nprogress .bar {
+  background: #29D;
+}
+
+/* Change the color of the spinner */
+#nprogress .spinner-icon {
+  border-top-color: #29D;
+  border-left-color: #29D;
+}

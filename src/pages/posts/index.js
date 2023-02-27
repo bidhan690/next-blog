@@ -12,6 +12,7 @@ export default function AllPostPage(props) {
     
         <AllPosts posts={props.posts} />
         <div align="center">
+<<<<<<< HEAD
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9623403163189751"
      crossOrigin="anonymous"></script>
     <ins className="adsbygoogle"
@@ -23,6 +24,9 @@ export default function AllPostPage(props) {
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+=======
+    
+>>>>>>> firstb
      </div>
 
     </>

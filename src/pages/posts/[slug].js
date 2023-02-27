@@ -2,6 +2,7 @@ import PostContent from "../../components/posts/post-detail/post-content"
 import { getData, getPostFiles } from '../../lib/post-util'
 import Head from "next/head"
 
+
 export default function SpecificPostsPage(props) {
     const postss = props.posts
     return <>
@@ -12,8 +13,8 @@ export default function SpecificPostsPage(props) {
      <PostContent posts={postss} />
      <div align="center">
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9623403163189751"
-     crossOrigin="anonymous"></script>
-    <ins className="adsbygoogle"
+     crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
      style={{display:'block'}}
      data-ad-client="ca-pub-9623403163189751"
      data-ad-slot="6511144828"
